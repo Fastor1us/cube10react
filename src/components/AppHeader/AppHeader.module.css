@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  padding: 40px 0;
+  background-color: var(--background-header-color);
+}
+
+.navPanel {
+  width: 960px;
+  margin: auto;
+  font-size: 35px;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  align-items: center;
+  gap: 40px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.navItem:last-of-type {
+  margin-left: auto;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.menuLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
